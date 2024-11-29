@@ -30,9 +30,8 @@ class ClassLightGL5528 extends ClassSensor {
             this._Channels[1].Value = rensor;
 
             this._Channels[0].Value = this._K * Math.pow(rensor, this._P);
-            
-            return true;
         }, period);
+        return true;
     }
     
     Stop() {
