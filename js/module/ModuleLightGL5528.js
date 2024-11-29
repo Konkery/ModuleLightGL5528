@@ -1,3 +1,4 @@
+const ClassSensor = require('ModuleSensor.min.js');
 const U1 = 3.3;
 const R1 = 10000; // Ом
 const MULT = 32017200;
